@@ -116,4 +116,4 @@ def add_comments(generator, metadata):
 
 def register():
     signals.article_generator_init.connect(comment_initialization)
-    signals.article_generate_context.connect(add_comments)
+    signals.article_generator_context.connect(add_comments)
